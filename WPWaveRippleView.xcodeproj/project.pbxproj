@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088BB80A1DC4705B00085904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BB8091DC4705B00085904 /* main.m */; };
+		088BB80D1DC4705B00085904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BB80C1DC4705B00085904 /* AppDelegate.m */; };
+		088BB8101DC4705B00085904 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BB80F1DC4705B00085904 /* ViewController.m */; };
+		088BB8131DC4705B00085904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088BB8111DC4705B00085904 /* Main.storyboard */; };
+		088BB8151DC4705B00085904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088BB8141DC4705B00085904 /* Assets.xcassets */; };
+		088BB8181DC4705B00085904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088BB8161DC4705B00085904 /* LaunchScreen.storyboard */; };
+		08AA034C1DC471160036011A /* WPWaveRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08AA034B1DC471160036011A /* WPWaveRippleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		088BB8051DC4705B00085904 /* WPWaveRippleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPWaveRippleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		088BB8091DC4705B00085904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		088BB80B1DC4705B00085904 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		088BB80C1DC4705B00085904 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		088BB80E1DC4705B00085904 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		088BB80F1DC4705B00085904 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		088BB8121DC4705B00085904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		088BB8141DC4705B00085904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		088BB8171DC4705B00085904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		088BB8191DC4705B00085904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08AA034A1DC471160036011A /* WPWaveRippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WPWaveRippleView.h; path = YRWaveRippleView/WPWaveRippleView.h; sourceTree = "<group>"; };
+		08AA034B1DC471160036011A /* WPWaveRippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WPWaveRippleView.m; path = YRWaveRippleView/WPWaveRippleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088BB8021DC4705B00085904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088BB7FC1DC4705B00085904 = {
+			isa = PBXGroup;
+			children = (
+				088BB8071DC4705B00085904 /* WPWaveRippleView */,
+				088BB8061DC4705B00085904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088BB8061DC4705B00085904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088BB8051DC4705B00085904 /* WPWaveRippleView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088BB8071DC4705B00085904 /* WPWaveRippleView */ = {
+			isa = PBXGroup;
+			children = (
+				08AA034A1DC471160036011A /* WPWaveRippleView.h */,
+				08AA034B1DC471160036011A /* WPWaveRippleView.m */,
+				088BB80B1DC4705B00085904 /* AppDelegate.h */,
+				088BB80C1DC4705B00085904 /* AppDelegate.m */,
+				088BB80E1DC4705B00085904 /* ViewController.h */,
+				088BB80F1DC4705B00085904 /* ViewController.m */,
+				088BB8111DC4705B00085904 /* Main.storyboard */,
+				088BB8141DC4705B00085904 /* Assets.xcassets */,
+				088BB8161DC4705B00085904 /* LaunchScreen.storyboard */,
+				088BB8191DC4705B00085904 /* Info.plist */,
+				088BB8081DC4705B00085904 /* Supporting Files */,
+			);
+			path = WPWaveRippleView;
+			sourceTree = "<group>";
+		};
+		088BB8081DC4705B00085904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				088BB8091DC4705B00085904 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088BB8041DC4705B00085904 /* WPWaveRippleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088BB81C1DC4705B00085904 /* Build configuration list for PBXNativeTarget "WPWaveRippleView" */;
+			buildPhases = (
+				088BB8011DC4705B00085904 /* Sources */,
+				088BB8021DC4705B00085904 /* Frameworks */,
+				088BB8031DC4705B00085904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPWaveRippleView;
+			productName = WPWaveRippleView;
+			productReference = 088BB8051DC4705B00085904 /* WPWaveRippleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088BB7FD1DC4705B00085904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = markejave;
+				TargetAttributes = {
+					088BB8041DC4705B00085904 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 088BB8001DC4705B00085904 /* Build configuration list for PBXProject "WPWaveRippleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088BB7FC1DC4705B00085904;
+			productRefGroup = 088BB8061DC4705B00085904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088BB8041DC4705B00085904 /* WPWaveRippleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088BB8031DC4705B00085904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088BB8181DC4705B00085904 /* LaunchScreen.storyboard in Resources */,
+				088BB8151DC4705B00085904 /* Assets.xcassets in Resources */,
+				088BB8131DC4705B00085904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088BB8011DC4705B00085904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088BB8101DC4705B00085904 /* ViewController.m in Sources */,
+				088BB80D1DC4705B00085904 /* AppDelegate.m in Sources */,
+				08AA034C1DC471160036011A /* WPWaveRippleView.m in Sources */,
+				088BB80A1DC4705B00085904 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		088BB8111DC4705B00085904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088BB8121DC4705B00085904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		088BB8161DC4705B00085904 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088BB8171DC4705B00085904 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		088BB81A1DC4705B00085904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		088BB81B1DC4705B00085904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088BB81D1DC4705B00085904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPWaveRippleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markejave.WPWaveRippleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		088BB81E1DC4705B00085904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPWaveRippleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markejave.WPWaveRippleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088BB8001DC4705B00085904 /* Build configuration list for PBXProject "WPWaveRippleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088BB81A1DC4705B00085904 /* Debug */,
+				088BB81B1DC4705B00085904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088BB81C1DC4705B00085904 /* Build configuration list for PBXNativeTarget "WPWaveRippleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088BB81D1DC4705B00085904 /* Debug */,
+				088BB81E1DC4705B00085904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088BB7FD1DC4705B00085904 /* Project object */;
+}
