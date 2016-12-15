@@ -54,8 +54,8 @@
     self.animating = YES;
     
     [[self shapeLayers] enumerateObjectsUsingBlock:^(CAShapeLayer * shapeLayer, NSUInteger index, BOOL *stop) {
-        CAAnimation *animation = [self newWaveAnimationWithBeginTime:index * [self timeInterval]];
-        [shapeLayer addAnimation:animation forKey:nil];
+        CAAnimation *animation = [self newWaveAnimation];
+        [self performSelector:@selector(_appendAnimationParameters:) withObject:@[shapeLayer, animation] afterDelay:index * [self timeInterval]];
     }];
 }
 
@@ -87,7 +87,7 @@
     return shapeLayer;
 }
 
-- (CAAnimation *)newWaveAnimationWithBeginTime:(NSTimeInterval)beginTime{
+- (CAAnimation *)newWaveAnimation{
     
     CGFloat maxRadius = MAX([self minRadius], MIN(CGRectGetWidth([self bounds]) / 2., CGRectGetHeight([self bounds]) / 2.));
     CGFloat scale = maxRadius / [self minRadius];
@@ -103,7 +103,6 @@
     CAAnimationGroup *animationGroup = [CAAnimationGroup animation];
     animationGroup.animations = @[scaleAnimation, alphaAnimation];
     animationGroup.duration = [self duration];
-    animationGroup.beginTime = beginTime;
     animationGroup.repeatCount = NSIntegerMax;
     animationGroup.removedOnCompletion = YES;
     
@@ -131,6 +130,15 @@
         [self startAnimating];
     } else {
         [self stopAnimating];
+    }
+}
+
+- (void)_appendAnimationParameters:(NSArray *)parameters{
+    CALayer *layer = [parameters firstObject];
+    CAAnimation *animation = [parameters lastObject];
+    
+    if ([self animating]) {
+        [layer addAnimation:animation forKey:nil];
     }
 }
 
